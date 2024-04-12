@@ -27,7 +27,7 @@ def evaluate(model, matrix, split, live, save_path):
 
     predictions_by_class = model.predict_proba(x)
     predictions = predictions_by_class[:, 1]
-    print("test")
+    print("teest")
 
     # Use dvclive to log a few simple metrics...
     avg_prec = metrics.average_precision_score(labels, predictions)
